@@ -9,12 +9,19 @@ Use ```DBHelper``` or ```CommonDBHelper``` for executing procedures of accessing
 The parameters' meanings are as follows:
 
 ```connstr``` is the connection string of MSSSQL server. 
-```where``` is the search condition like ```a=1 and b=2```
+
+```where``` is the search condition like ```a=1 and b=2```.
+
 ```fields[]``` and ```values[]``` represents key and value respectively. For example, ```field[0]``` is the key and the ```values[0]``` is the value of ```field[0]```. 
+
 ```table``` represents the target table's name. 
-```order by``` has two values, ```[YOUR FIELD] asc``` or ```[YOUR FIELD] desc```
+
+```order by``` has two values, ```[YOUR FIELD] asc``` or ```[YOUR FIELD] desc```.
+
 ```listfield``` represents a set of fields returned by the method, default is set to ```*```, which means returning all fields. 
+
 ```pageIndex``` represent the order of page in a paging procedure.
+
 ```pageSize``` represent the number of records in a page returned by the method. 
 
 ## Get a table from db
